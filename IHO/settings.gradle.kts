@@ -1,0 +1,11 @@
+include(":app")
+include(":model")
+include(":data-model")
+include(":domain")
+include(":data")
+include(":shared")
+include(":ui-home")
+include(":common-ui")
+include(":common-android")
+include(":android-test-shared")
+rootProject.name = "IHO"

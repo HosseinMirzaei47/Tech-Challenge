@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="app_font_regular">
+        <item name="fontFamily">@font/english_font_regular</item>
+        <item name="android:fontFamily">@font/english_font_regular</item>
+    </style>
+
+    <style name="app_font_light">
+        <item name="fontFamily">@font/english_font_light</item>
+        <item name="android:fontFamily">@font/english_font_light</item>
+    </style>
+
+    <style name="app_font_extra_light">
+        <item name="fontFamily">@font/english_font_extra_light</item>
+        <item name="android:fontFamily">@font/english_font_extra_light</item>
+    </style>
+
+    <style name="app_font_bold">
+        <item name="fontFamily">@font/english_font_bold</item>
+        <item name="android:fontFamily">@font/english_font_bold</item>
+    </style>
+
+    <style name="app_font_semi_bold">
+        <item name="fontFamily">@font/english_font_semi_bold</item>
+        <item name="android:fontFamily">@font/english_font_semi_bold</item>
+    </style>
+
+    <style name="app_font_medium">
+        <item name="fontFamily">@font/persian_font_sans_medium</item>
+        <item name="android:fontFamily">@font/persian_font_sans_medium</item>
+    </style>
+
+    <!-- Headlines -->
+    <style name="TextAppearance.App.Headline1" parent="app_font_semi_bold">
+        <item name="android:textSize">@dimen/text_size_28</item>
+    </style>
+
+    <style name="TextAppearance.App.Headline2" parent="app_font_bold">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="lineHeight">@dimen/_12sdp</item>
+    </style>
+
+    <style name="TextAppearance.App.Headline3" parent="app_font_regular">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="lineHeight">@dimen/_14sdp</item>
+    </style>
+
+    <style name="TextAppearance.App.Headline4" parent="app_font_semi_bold">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <!-- Body -->
+    <style name="TextAppearance.App.Body" parent="app_font_light">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="TextAppearance.App.Body2" parent="app_font_regular">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <!-- Caption -->
+    <style name="TextAppearance.App.Caption" parent="app_font_bold">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="TextAppearance.App.Caption2" parent="app_font_regular">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="TextAppearance.App.Button" parent="app_font_bold">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <style name="TextAppearance.App.Button2" parent="app_font_semi_bold">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+</resources>
